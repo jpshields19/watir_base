@@ -1,0 +1,20 @@
+version: "3.5"
+services:
+  app:
+    image: watirpage
+    container_name: watirbuilder
+    ports:
+      - "3100:3000"
+    volumes:
+      - ./db:/app/db
+      - /app/db/migrate
+      - gem_cache:/usr/local/bundle/gems
+    networks:
+      - watir
+
+volumes:
+  gem_cache:
+
+networks:
+  watir:
+    name: watir
