@@ -67,7 +67,6 @@ GEM
     netrc (0.11.0)
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
-    pg (1.2.3-x64-mingw32)
     protobuf-cucumber (3.10.8)
       activesupport (>= 3.2)
       middleware
@@ -113,7 +112,6 @@ DEPENDENCIES
   cucumber
   hashdiff
   helper!
-  pg
   rest-client
   rspec-expectations
   watir

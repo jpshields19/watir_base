@@ -3,7 +3,6 @@ group :test do
 	gem 'cucumber'
 	gem 'rspec-expectations'
 	gem 'watir'
-	gem 'pg'
 	gem 'hashdiff'
 	gem 'rest-client'
 	gem 'webdrivers'

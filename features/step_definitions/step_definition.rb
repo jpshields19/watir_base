@@ -1,5 +1,3 @@
-require 'helper'
-
 Given('I open google') do
   @browser.goto 'www.google.com'
   @google = Helper::PageObject.new(@browser, 'google')
